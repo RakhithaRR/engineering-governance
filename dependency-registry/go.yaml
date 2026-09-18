@@ -335,6 +335,12 @@ dependencies:
         allowed_scopes:
           - "*"
 
+  - module: github.com/pb33f/libopenapi-validator
+    versions:
+      - version: ">=v0.14.0"
+        allowed_scopes:
+          - "api-platform"
+
   - module: github.com/getkin/kin-openapi
     versions:
       - version: ">=v0.133.0"
